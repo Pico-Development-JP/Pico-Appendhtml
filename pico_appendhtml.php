@@ -3,9 +3,15 @@
  * すべてのHTMLに特定のテキストを追加するプラグイン
  *
  * @author TakamiChie
+ * @link http://onpu-tamago.net/
+ * @license http://opensource.org/licenses/MIT
+ * @version 1.1
  */
 
 class Pico_AppendHTML extends AbstractPicoPlugin {
+
+  const API_VERSION = 2;
+
   protected $enabled = false;
   private $addhtml;
 
